@@ -1,3 +1,5 @@
+// Code written by Emirkan Sali
+
 #define s0 A0        //pins for RGB Sensor
 #define s1 A1
 #define s2 A2
@@ -24,11 +26,11 @@ int onGreen=0, onBlue=0, onMagenta=0, onOrange=0, onBlack=0, onWhite=0; //Values
 
 int vertical=1, horizontal=1; //set initial position of Vehicle
 
-int back=0, forward=0; // variable for turning back
+int back=0, forward=0; // variable for turning back. unused
 
 int turnBackminus= 0, turnBackplus = 0;
 
-int process = 0;
+int process = 0; //unused
 
 int way = 1; //change to 2 when the vehicle should only go to one location
 
